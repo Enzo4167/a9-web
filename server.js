@@ -28,7 +28,7 @@ require('./services/profile-service')(app);
 require('./lecture/tweet-service')(app);
 require('./services/movies-service')(app);
 require('./movies/service')(app);
-require('./services/who-service')（app);
+require('./services/who-service')(app);
 
 
 app.listen( process.env.PORT|| 4000);
