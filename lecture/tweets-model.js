@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const tweetSchema = require("./tweets-Schema");
+const tweetSchema = require("./tweets-schema");
 
 const tweetModel = mongoose.model("TweetModel", tweetSchema);
 
